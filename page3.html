@@ -4,15 +4,30 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css"> 
-     <title>Puppy names</title>
+    
+        <title>Puppy names</title>
     </head>
     <body>
-     <h1>I am considering the following names for my puppy!</h1>
+    <h1  class="text-3xl text-purple-700 font-bold m-8">I am considering the following names for my puppy!</h1>
+    <div class="flex">
+    
      <p></p>
      <ul>
-        <li>Sophie</li>
-        <li>Callie</li>
-        <li>Lily</li>
+        <li class="text-m font-semibold m-8">Sophie</li>
+        <li class="text-m font-semibold m-8">Callie</li>
+        <li class="text-m font-semibold m-8">Lily</li>
        </ul>
+    </div>
+
+    <div>    
+    <h1 class="text-center text-2xl font-bold">Any puppy name suggestions?  Please submit below!</h1>
+        <!-- Order form goes here -->
+        <form class="p-8" netlify>
+            <label class="block mt-4 font-bold" for="name">Puppy name</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+            focus:border-purple-500" type="text" id="name" name="name">
+          
+           
+          </form></div>
     </body>
     </html>
